@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/bulubilisimbussiness.png"
+      type="image/x-icon"
+    />
+    <title>Froms</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+    <form action="result.html" method="get">
+      <section id="name">
+        <label for="isim">İsim</label> <br />
+        <input
+          type="text"
+          id="isim"
+          placeholder="İsminizi giriniz"
+          name="isim"
+          value=""
+          required
+        />
+        <br /><br />
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Şifrenizi giriniz"
+          name="email"
+          required
+        />
+        <br /><br />
+        <label for="pass">Password</label><br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="En az 8 karakter giriniz.."
+          required
+        />
+        <br /><br />
+        <label for="age">Age</label><br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="0"
+          max="180"
+          placeholder="Yaşınızı giriniz.."
+        />
+        <br /><br />
+        <p>GENDER</p>
+
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="erkek" name="gender" value="Erkek" />
+        <label for="kadin">Kadın</label>
+        <input type="radio" id="kadin" name="gender" value="Kadın" />
+        <label for="none">Npne</label>
+        <input
+          type="radio"
+          id="none"
+          name="gender"
+          value="none"
+          checked
+        /><br />
+
+        <label for="fav-cars">LÜTFEN FAVORİ ARABALARINIZI SEÇİNİZ:</label><br />
+
+        <input type="checkbox" name="cars1" id="bmw" value="BMW" />
+        <label for="bmw">BMW</label>
+        <input type="checkbox" name="cars2" id="mercedes" value="mercedes" />
+        <label for="mercedes">Mercedes</label>
+        <input type="checkbox" name="cars3" id="ferrari" value="ferrari" />
+        <label for="ferrari">FERRARI</label><br />
+
+        <label for="dob">Doğum Tarihi</label><br />
+        <input type="date" id="dob" name="dob" min="1990-01-01" /><br />
+      </section>
+      <section>
+        <select name="dersler" id="dersler">
+          <optgroup label="dizayn dersleri">
+            <option value="css">CSS</option>
+            <option value="sass">SASS</option>
+          </optgroup>
+          <optgroup label="diğer dersler">
+            <option value="html">HTML</option>
+            <option value="javascript">JAVASCRIPT</option>
+          </optgroup>
+        </select>
+      </section>
+      <section>
+        <label for="comment">Yorumlarınızı yazınız...</label><br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="5"
+          maxlength="100"
+          style="resize: none"
+          placeholder="En fazla 100 karakter girebilirsiniz"
+        ></textarea>
+      </section>
+      <br />
+      <section id="buttons">
+        <input type="submit" value="Kaydet" />
+        <input type="reset" value="Sil" />
+      </section>
+    </form>
+  </body>
+</html>
