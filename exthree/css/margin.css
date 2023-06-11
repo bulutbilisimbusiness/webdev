@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    background-color: bisque;
+    margin: 50px; /* 4 tarafa 50 px boşluk bırakır */
+    margin: 10px 30px;
+    text-align: center;
+    padding: 10px;
+}
+.div{
+    background-color: blueviolet;
+    width: 100px;
+    /* height: 30px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin:20px auto;
+}
