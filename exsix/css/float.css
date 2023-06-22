@@ -1,0 +1,14 @@
+img{
+    width: 30%;
+   float: left;
+}
+/* .img1{
+    float: left;
+}
+.img2{
+    float: left;
+}
+.text{float:right} */
+.clear{
+    clear: both;
+}
